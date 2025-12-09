@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kavya Arts — Fine Arts & Drawings</title>
+  <meta name="description" content="Kavya Arts features vintage-inspired fine arts and drawings by Kavya Sri." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 class="brand">Kavya Arts</h1>
+    <img class="ornament" src="assets/ornament.svg" alt="ornament" />
+    <p class="subtitle">Fine arts and drawings by <strong>Kavya Sri</strong></p>
+    <nav class="nav" aria-label="Primary">
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="gallery" class="gallery" aria-label="Art Gallery"></section>
+    <section id="about" class="about" style="margin-top:2rem;">
+      <img class="ornament" src="assets/ornament.svg" alt="ornament" />
+      <p style="text-align:center; max-width:800px; margin:0 auto;">
+        Welcome to <em>Kavya Arts</em> — a curated collection of vintage-inspired fine arts and drawings. Each piece blends delicate line work with warm sepia tones, celebrating timeless aesthetics.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img class="ornament" src="assets/ornament.svg" alt="ornament" />
+    <p>&copy; <span id="year"></span> Kavya Arts. All rights reserved.</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <div style="text-align:center;">
+      <img src="" alt="Artwork" />
+      <div class="caption"></div>
+    </div>
+  </div>
+
+  <button class="whatsapp" onclick="openWhatsApp()" aria-label="Chat on WhatsApp">Chat on WhatsApp</button>
+
+  <script src="script.js"></script>
+  <script> document.getElementById('year').textContent = new Date().getFullYear(); </script>
+</body>
+</html>
