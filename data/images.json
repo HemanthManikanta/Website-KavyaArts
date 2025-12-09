@@ -1,12 +1,12 @@
 {
   "images": [
     {
-      "file": "images/Screenshot_20230819_162737_Instagram.jpg",
+      "file": "data/images/Screenshot_20230819_162737_Instagram.jpg",
       "title": "Believe \u2014 Framed Lettering",
       "description": "Hand-lettered word 'Believe' framed with intricate pen patterns and leaf motifs in monochrome."
     },
     {
-      "file": "images/20250103_191530.jpg",
+      "file": "data/images/20250103_191530.jpg",
       "title": "Twin Birds \u2014 Tribal Lines",
       "description": "Minimal bird forms built with rhythmic hatch lines and geometric feather textures."
     },
